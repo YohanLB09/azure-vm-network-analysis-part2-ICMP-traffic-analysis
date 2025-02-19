@@ -11,7 +11,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop 
-- Windows Powershell 
+- PowerShell 
 - Network protocol (ICMP)
 - Wireshark (Protocol Analyzer)
 
