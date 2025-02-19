@@ -22,10 +22,10 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 
 <h2>High-Level Steps</h2>
 
-- Step 1: 
-- Step 2: 
-- Step 3:
-- Step 4:
+- Step 1: Connect to the Windows Virtual Machine
+- Step 2: Install Wireshark
+- Step 3: Filter ICMP traffic and observe
+- Step 4: 
 
 <h2>Actions and Observations</h2>
 
