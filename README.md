@@ -1,6 +1,6 @@
 # Azure VM Network Analysis - Part 2 - ICMP Traffic Analysis
 
-In this tutorial, we will observe ICMP network traffic between two Azure Virtual Machines using Wireshark.
+In this tutorial, we will observe ICMP network traffic between two Azure Virtual Machines using Wireshark and PowerShell.
 
 <p align="center">
 <img src="https://i.imgur.com/Gfc6Ipg.png" alt="Traffic Examination"/>
