@@ -92,7 +92,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 
 
 <p>
-<img src="https://i.imgur.com/kAXGqyt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZgCC1Gq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Download the Windows x64 installer version. 
