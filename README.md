@@ -63,7 +63,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/XsmfHbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to the VM since we have created it in Azure.
+-After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to the VM since we have created it in Azure.
 </p>
 <br />
 
@@ -81,19 +81,25 @@ After inserting your credentials and pressing "OK", you should see this pop-up w
 
 <h3>Step 2: Install Wireshark</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Use the Microsoft Edge on the desktop.
+  
+-Go to www.wireshark.org and click on "Download".
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kAXGqyt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Download the Windows x64 installer version. 
+  
+-Once the download is complete, click on "Open file" and you should see the installation pop-up window appearing. 
+
+-Follow the Wizard while leaving all the default configuration as they are and complete the installation process.
 </p>
 <br />
 
