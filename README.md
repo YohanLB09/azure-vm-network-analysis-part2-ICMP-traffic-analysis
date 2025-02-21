@@ -25,13 +25,13 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 - Step 1: Connect to the Windows Virtual Machine
 - Step 2: Install Wireshark
 - Step 3: Filter for ICMP traffic and observe
-- Step 4: Ending
+- Step 4: Prepare for Part 3
 
 <h2>Actions and Observations</h2>
 
 <h3>Step 1: Connect to the Windows Virtual Machine</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
