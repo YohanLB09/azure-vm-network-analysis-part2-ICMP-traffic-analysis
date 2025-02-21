@@ -84,9 +84,9 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Use the Microsoft Edge on the desktop.
+-Use the Microsoft Edge app on the desktop and go to www.wireshark.org.
   
--Go to www.wireshark.org and click on "Download".
+-Click on "Download".
 </p>
 <br />
 
