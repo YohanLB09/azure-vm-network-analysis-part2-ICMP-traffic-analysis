@@ -97,7 +97,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -Download the Windows x64 installer version. 
   
--Once the download is complete, click on "Open file" and you should see the installation pop-up window appearing. 
+-Once the download is completed, click on "Open file" and you should see the installation pop-up window appearing. 
 
 -Follow the Wizard while leaving all the default configuration as they are and complete the installation process.
 </p>
