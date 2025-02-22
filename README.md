@@ -103,7 +103,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 </p>
 <br />
 
-
+<h3>Step 3: Filter for ICMP traffic and observe</h3>
 <p>
 <img src="https://i.imgur.com/9KIg9Xj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
