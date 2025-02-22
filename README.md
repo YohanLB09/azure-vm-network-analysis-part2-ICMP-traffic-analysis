@@ -30,6 +30,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <h2>Actions and Observations</h2>
 
 <h3>Step 1: Connect to the Windows Virtual Machine</h3>
+
 <p>
 <img src="https://i.imgur.com/4xl480l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -39,6 +40,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/NCbzwRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -46,6 +48,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 -Type Remote Desktop Connection in the search bar and click on "Open".
 </p>
 <br />
+
 
 
 <p>
@@ -59,6 +62,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/XsmfHbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -66,6 +70,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 -After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to the VM since we have created it in Azure.
 </p>
 <br />
+
 
 
 <p>
@@ -79,7 +84,10 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
+
 <h3>Step 2: Install Wireshark</h3>
+
 <p>
 <img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -89,6 +97,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 -Click on "Download".
 </p>
 <br />
+
 
 
 <p>
@@ -103,7 +112,11 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 </p>
 <br />
 
+
+
+
 <h3>Step 3: Filter for ICMP traffic and observe</h3>
+
 <p>
 <img src="https://i.imgur.com/9KIg9Xj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -117,6 +130,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/jEjetaJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -128,6 +142,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/WjzlWrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -137,8 +152,9 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
+
 <p>
-<img src="https://i.imgur.com/Ru4N7Qq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/42TAeOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Type "Windows PowerShell" in the Desktop Search bar and click on "Open".
@@ -155,19 +171,17 @@ If you don't understand the information provided by Wireshark, here is a link to
 <br />
 
 
+
+
+<h3>Step 4: Prepare for Part 3</h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UGABQqS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-From here, you can directly move on to Part 3: (link).
+
+-If you wish to end the lab without moving on to Part 3, you can turn off the Windows VM session.
 </p>
 <br />
 
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
