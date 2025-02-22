@@ -148,7 +148,8 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 -Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from this ICMP packet capture.
 
 -Additionally, try pinging any website (ex: www.google.com) and observe the traffic. Can you notice any difference from the previous packet capture? What information is associated with the different devices that are communicating to one another (IP address, MAC address, etc)?
-Keep experimenting with more ping requests and other commands to get more familiar with these tools. 
+
+-Keep experimenting with more ping requests and other commands to get more familiar with these tools. 
 If you don't understand the information provided by Wireshark, here is a link to their website where you will find tutorials adapted for beginners: https://www.wireshark.org/learn.
 </p>
 <br />
