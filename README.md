@@ -79,7 +79,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <br />
 
 
-<h3>Step 2: Install and run Wireshark</h3>
+<h3>Step 2: Install Wireshark</h3>
 <p>
 <img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -108,7 +108,9 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/9KIg9Xj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Open Wireshark and click on "Ethernet" to select the Ethernet network adapter, it should become highlighted.
+-Type Wireshark in the Desktop Seach bar and click on "Open".
+  
+-Click on "Ethernet" to select the Ethernet network adapter, it should become highlighted.
   
 -Click on the shark fin in the upper left to start the packet capture.
 </p>
@@ -136,10 +138,18 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ru4N7Qq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Type "Windows PowerShell" in the Desktop Search bar and click on "Open".
+
+-In PowerShell, initiate a ping request to the Linux VM like so: "ping 10.0.0.5" (the Linux VM Private IP address may be different for you). 
+
+-Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from this ICMP packet capture.
+
+-Additionally, try pinging any website (ex: www.google.com) and observe the traffic. Can you notice any difference from the previous packet capture? What information is associated with the different devices that are communicating to one another (IP address, MAC address, etc)?
+Keep experimenting with more ping requests and other commands to get more familiar with these tools. 
+If you don't understand the information provided by Wireshark, here is a link to their website where you will find tutorials adapted for beginners: https://www.wireshark.org/learn.
 </p>
 <br />
 
