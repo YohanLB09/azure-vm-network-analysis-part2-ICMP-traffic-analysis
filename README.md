@@ -121,16 +121,16 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -You will notice a high amount of traffic occurring. This is expected due to normal network operations, background processes, and Azure-related activity. 
   
--While the packet capture is still running, type "icmp" in the search bar and press enter to filter for ICMP traffic. You will observe that there are no such traffic currently happening which is normal since no device has tried to initiate a ping request to the Windows VM or vice-versa.
+-While the packet capture is still running, type "icmp" in the search bar and press "Enter" to filter for ICMP traffic. You will observe that there are no such traffic currently happening which is normal since no device has tried to initiate a ping request to the Windows VM or vice-versa.
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WjzlWrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Go back to Azure, select the Linux VM, click on "Network settings" and copy the Linux VM Private IP address.
 </p>
 <br />
 
