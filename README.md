@@ -23,7 +23,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <h2>High-Level Steps</h2>
 
 - Step 1: Connect to the Windows Virtual Machine
-- Step 2: Install Wireshark
+- Step 2: Install and run Wireshark
 - Step 3: Filter for ICMP traffic and observe
 - Step 4: Prepare for Part 3
 
@@ -74,12 +74,12 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -Once the session is initated, you should see this loading screen appearing. This indicates that you are officially connected to the Windows VM. 
   
--Additionally, before reaching the Windows VM desktop, you may be asked to configure certain features/options. These are not important for the purpose of this lab so you can leave them as disabled or manually disable them.
+-Additionally, before reaching the desktop, you may be asked to configure certain features/options. These are not important for the purpose of this lab so you can leave them as disabled or manually disable them.
 </p>
 <br />
 
 
-<h3>Step 2: Install Wireshark</h3>
+<h3>Step 2: Install and run Wireshark</h3>
 <p>
 <img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -99,16 +99,18 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
   
 -Once the download is completed, click on "Open file" and you should see the installation pop-up window appearing. 
 
--Follow the Wizard while leaving all the default configuration as they are and complete the installation process.
+-Follow along the Wizard while leaving all the default configuration as they are and complete the installation process.
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9KIg9Xj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Open Wireshark and click on "Ethernet" to select the Ethernet network adapter, it should become highlighted.
+  
+-Click on the shark fin in the upper left to start the packet capture.
 </p>
 <br />
 
