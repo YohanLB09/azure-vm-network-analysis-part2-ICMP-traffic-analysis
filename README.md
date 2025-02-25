@@ -159,7 +159,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -Type "Windows PowerShell" in the Desktop Search bar and click on "Open".
 
--In PowerShell, initiate a ping request to your Linux VM like so: "ping 10.0.0.5" (your Linux VM Private IP address may be different). 
+-In PowerShell, initiate a ping request from your Windows VM to your Linux VM like so: "ping 10.0.0.5" (your Linux VM Private IP address may be different than this one). 
 
 -Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from the ICMP packet capture.
 
