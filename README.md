@@ -182,7 +182,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -From here, you can directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; (link).
 
--If you wish to end the lab without moving on to Part 3, close all opened windows and turn off the Windows VM session by clicking on the X on the upper bar.
+-If you wish to end the lab without moving on to Part 4, close all opened windows and turn off the Windows VM session by clicking on the X on the upper bar. Additionally, make sure you stop or delete your VMs to avoid unnecessary costs and optimize resource usage.
 </p>
 <br />
 
