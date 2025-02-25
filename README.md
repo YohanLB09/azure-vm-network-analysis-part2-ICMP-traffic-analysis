@@ -123,9 +123,9 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -Type Wireshark in the Desktop Seach bar and click on "Open".
   
--Click on "Ethernet" to select the Ethernet network adapter, it should become highlighted.
+-In Wireshark, click on "Ethernet" to select the Ethernet network adapter, it should become highlighted.
   
--Click on the shark fin in the upper left to start the packet capture.
+-Click on the shark fin on the upper left to start the packet capture.
 </p>
 <br />
 
@@ -147,7 +147,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/WjzlWrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Go back to Azure, select the Linux VM, click on "Network settings" and copy the Linux VM Private IP address.
+-While leaving the packet capture running in Wireshark, go back to Azure, select the Linux VM, click on "Network settings" and copy the Linux VM Private IP address.
 </p>
 <br />
 
@@ -182,7 +182,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -From here, you can directly move on to Part 3 without closing the Wireshark and PowerShell windows; (link).
 
--If you wish to end the lab without moving on to Part 3, close all the windows and turn off the Windows VM session.
+-If you wish to end the lab without moving on to Part 3, close all opened windows and turn off the Windows VM session.
 </p>
 <br />
 
