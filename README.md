@@ -55,9 +55,9 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/jtXUYuE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Paste the Windows VM Public IP address in Remote Destop Connection and click on "Connect".
+-Paste your Windows VM Public IP address in Remote Destop Connection and click on "Connect".
   
--In the new pop-up window, enter the Windows VM password (the one created in Part 1) and click on "OK" to initiate the session.
+-In the new pop-up window, enter your Windows VM password (the one created in Part 1) and click on "OK" to initiate the session.
 </p>
 <br />
 
@@ -67,7 +67,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/XsmfHbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to the VM since we have created it in Azure.
+-After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to your VM since we have created it in Azure.
 </p>
 <br />
 
@@ -77,7 +77,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/Vtkde9D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Once the session is initated, you should see this loading screen appearing. This indicates that you are officially connected to the Windows VM. 
+-Once the session is initated, you should see this loading screen appearing. This indicates that you are officially connected to your Windows VM. 
   
 -Additionally, before reaching the desktop, you may be asked to configure certain features/options. These are not important for the purpose of this lab so you can leave them as disabled or manually disable them.
 </p>
@@ -137,7 +137,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -You will notice a high amount of traffic occurring. This is expected due to normal network operations, background processes, and Azure-related activity. 
   
--While the packet capture is still running, type "icmp" in the search bar and press "Enter" to filter for ICMP traffic. You will observe that there are no such traffic currently happening which is normal since no device has tried to initiate a ping request to the Windows VM or vice-versa.
+-While the packet capture is still running, type "icmp" in the search bar and press "Enter" to filter for ICMP traffic. You will observe that there are no such traffic currently happening which is normal since no device has tried to initiate a ping request to your Windows VM or vice-versa.
 </p>
 <br />
 
@@ -147,7 +147,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/WjzlWrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--While leaving the packet capture running in Wireshark, go back to Azure, select the Linux VM, click on "Network settings" and copy the Linux VM Private IP address.
+-While leaving the packet capture running in Wireshark, go back to Azure, select your Linux VM, click on "Network settings" and copy your Linux VM Private IP address.
 </p>
 <br />
 
@@ -159,7 +159,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <p>
 -Type "Windows PowerShell" in the Desktop Search bar and click on "Open".
 
--In PowerShell, initiate a ping request to the Linux VM like so: "ping 10.0.0.5" (the Linux VM Private IP address may be different for you). 
+-In PowerShell, initiate a ping request to your Linux VM like so: "ping 10.0.0.5" (your Linux VM Private IP address may be different). 
 
 -Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from the ICMP packet capture.
 
@@ -177,12 +177,12 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <h3>Step 4: Prepare for Part 3</h3>
 
 <p>
-<img src="https://i.imgur.com/UGABQqS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="take another screenshot of the Wireshark and PowerShell windows open and where we see the top bar too" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--From here, you can directly move on to Part 3 without closing the Wireshark and PowerShell windows; (link).
+-From here, you can directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; (link).
 
--If you wish to end the lab without moving on to Part 3, close all opened windows and turn off the Windows VM session.
+-If you wish to end the lab without moving on to Part 3, close all opened windows and turn off the Windows VM session by clicking on the X on the upper bar.
 </p>
 <br />
 
