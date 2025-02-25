@@ -161,12 +161,13 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 
 -In PowerShell, initiate a ping request to the Linux VM like so: "ping 10.0.0.5" (the Linux VM Private IP address may be different for you). 
 
--Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from this ICMP packet capture.
+-Observe the ping request and replies within Wireshark. Take the time to analyze and get a general idea of the information provided from the ICMP packet capture.
 
--Additionally, try pinging any website (ex: www.google.com) and observe the traffic. Can you notice any difference from the previous packet capture? What information is associated with the different devices that are communicating to one another (IP address, MAC address, etc)?
+-Additionally, try pinging any website (ex: www.google.com) and observe the traffic. Can you notice any difference from the previous packet capture? What information is associated with the different systems that are communicating to one another (IP addresses, MAC addresses, protocols)?
 
 -Keep experimenting with more ping requests and other commands to get more familiar with these tools. 
-If you don't understand the information provided by Wireshark, here is a link to their website where you will find tutorials adapted for beginners: https://www.wireshark.org/learn.
+
+-If you don't understand the information provided by Wireshark, here is a link to their website where you will find tutorials adapted for beginners: https://www.wireshark.org/learn.
 </p>
 <br />
 
@@ -179,9 +180,9 @@ If you don't understand the information provided by Wireshark, here is a link to
 <img src="https://i.imgur.com/UGABQqS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--From here, you can directly move on to Part 3: (link).
+-From here, you can directly move on to Part 3 without closing the Wireshark and PowerShell windows; (link).
 
--If you wish to end the lab without moving on to Part 3, you can turn off the Windows VM session.
+-If you wish to end the lab without moving on to Part 3, close all the windows and turn off the Windows VM session.
 </p>
 <br />
 
