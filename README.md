@@ -177,7 +177,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <h3>Step 4: Prepare for Part 3</h3>
 
 <p>
-<img src="take another screenshot of the Wireshark and PowerShell windows open and where we see the top bar too (indicate the X symbol)" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vgk7jx7.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -From here, you can directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; (link).
