@@ -180,7 +180,7 @@ In this tutorial, we will observe ICMP network traffic between two Azure Virtual
 <img src="https://i.imgur.com/kO6QyxT.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--From here, click on the small red square to stop the packet capture and directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; (link).
+-From here, click on the small red square to stop the packet capture and directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; https://github.com/YohanLB09/azure-vm-network-analysis-part3-ICMP-traffic-analysis-NSG.
 
 -If you wish to end the lab without moving on to Part 3, close all opened windows and turn off the Windows VM session by clicking on the X on the upper bar. Additionally, make sure you stop or delete your VMs to avoid unnecessary costs and optimize resource usage.
 </p>
