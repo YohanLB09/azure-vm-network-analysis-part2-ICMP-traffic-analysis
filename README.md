@@ -32,7 +32,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 1: Connect to the Windows Virtual Machine</h3>
 
 <p>
-<img src="https://i.imgur.com/4xl480l.png" height="50%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4xl480l.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Select your Windows VM and copy its Public IP address. 
