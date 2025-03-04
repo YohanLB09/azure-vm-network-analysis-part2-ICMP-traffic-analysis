@@ -32,7 +32,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 1: Connect to the Windows Virtual Machine</h3>
 
 <p>
-<img src="https://i.imgur.com/4xl480l.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4xl480l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Select your Windows VM and copy its Public IP address. 
@@ -42,7 +42,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/NCbzwRc.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NCbzwRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Type Remote Desktop Connection in the search bar and click on "Open".
@@ -64,7 +64,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/XsmfHbI.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XsmfHbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to your VM since we have created it in Azure.
