@@ -32,7 +32,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 1: Connect to the Windows Virtual Machine</h3>
 
 <p>
-<img src="https://i.imgur.com/4xl480l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4xl480l.png" height="80%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Select your Windows VM and copy its Public IP address. 
@@ -42,7 +42,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/NCbzwRc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NCbzwRc.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Type Remote Desktop Connection in the search bar and click on "Open".
@@ -52,7 +52,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/jtXUYuE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jtXUYuE.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Paste your Windows VM Public IP address in Remote Destop Connection and click on "Connect".
@@ -64,7 +64,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/XsmfHbI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XsmfHbI.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -After inserting your credentials and pressing "OK", you should see this pop-up window appearing on your screen. Don't worry, this is normal as the remote computer (the Windows VM) is using a self-signed Remote Desktop Protocol (RDP) certificate, which is not automatically trusted by your local machine. You can go ahead and press "Yes" to connect to your VM since we have created it in Azure.
@@ -74,7 +74,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/Vtkde9D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Vtkde9D.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Once the session is initated, you should see this loading screen appearing. This indicates that you are officially connected to your Windows VM. 
@@ -89,7 +89,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 2: Install Wireshark</h3>
 
 <p>
-<img src="https://i.imgur.com/sqtRiCZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sqtRiCZ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Use the Microsoft Edge app on the desktop and go to www.wireshark.org.
@@ -101,7 +101,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/ZgCC1Gq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZgCC1Gq.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Download the Windows x64 installer version. 
@@ -118,7 +118,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 3: Filter for ICMP traffic and observe</h3>
 
 <p>
-<img src="https://i.imgur.com/9KIg9Xj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9KIg9Xj.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Type Wireshark in the Desktop Seach bar and click on "Open".
@@ -132,7 +132,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/jEjetaJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jEjetaJ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -You will notice a high amount of traffic occurring. This is expected due to normal network operations, background processes, and Azure-related activity. 
@@ -144,7 +144,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/WjzlWrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WjzlWrP.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -While leaving the packet capture running in Wireshark, go back to Azure, select your Linux VM, click on "Network settings" and copy your Linux VM Private IP address.
@@ -154,7 +154,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 
 
 <p>
-<img src="https://i.imgur.com/42TAeOi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/42TAeOi.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -Type "Windows PowerShell" in the Desktop Search bar and click on "Open".
@@ -177,7 +177,7 @@ In this guided lab, we will use Wireshark and PowerShell to observe ICMP network
 <h3>Step 4: Prepare for Part 3</h3>
 
 <p>
-<img src="https://i.imgur.com/kO6QyxT.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kO6QyxT.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 -From here, click on the small red square to stop the packet capture and directly move on to Part 3 while leaving the Wireshark and PowerShell windows open; https://github.com/YohanLB09/azure-vm-network-analysis-part3-ICMP-traffic-analysis-NSG.
